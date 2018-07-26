@@ -8,10 +8,13 @@ Description: A collection of utility functions
 License: MIT
 LazyData: TRUE
 RoxygenNote: 6.0.1
-Depends: R, yaml
+Depends: R (>= 2.1), yaml
 Imports: car,
   dplyr,
   magrittr,
   MuMIn,
   purrr,
-  tidyr
+  tidyr,
+  R2HTML,
+  RCurl,
+  crayon
